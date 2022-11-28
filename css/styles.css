@@ -1,0 +1,224 @@
+body {
+    
+    padding: 170px 20px 0;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#colorface:hover {
+    background: #3b5998
+}
+
+#colorIns:hover {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJSdBLVsBii4mIG5c_E8sSqc0TnkLlFquwaQ&usqp=CAU);
+}
+
+#colorWhat:hover {
+    background: #00bb2d
+}
+
+.card-title {
+    color: #142a8b
+}
+
+.card-title1 {
+    text-align: center;
+}
+
+.col {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+
+.image1 {
+
+    height: 100%;
+    margin: auto;
+    display: block;
+
+
+}
+
+.card-text1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.card-footer a {
+    height: 100%;
+    margin: auto;
+    display: block;
+
+}
+
+.card-text {
+    font-size: 20px;
+}
+
+.m-0 {
+    font-size: 20px;
+}
+
+.navbar-nav {
+    font-size: 20px;
+
+}
+
+.nav-item:hover {
+    background-color: #5470ec;
+    border-radius: 4px;
+
+
+
+
+}
+
+.nav-item {
+    float: left;
+    margin-right: 10px;
+}
+
+
+.planes {
+    font-size: 20px;
+}
+
+.text-white1 {
+    font-size: 20px;
+    color: white;
+}
+
+.text-black {
+    font-size: 20px;
+}
+
+.nav-link1:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link1 {
+    text-decoration: none;
+    color: black;
+
+    font-size: 20px;
+    display: contents;
+    align-items: center;
+
+}
+
+.nav-link1-active {
+    font-weight: bold;
+    text-decoration: none;
+    color: #000428;
+}
+
+.nav-link1-active:hover {
+    color: white;
+}
+/* .gallery-img {
+    text-align: center;
+    transition: transform .2s; 
+}
+ 
+.gallery-img:hover {
+    transform: scale(3.0); 
+    position:RELATIVE;
+} */
+
+/* CSS PARA EL MODAL */
+
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modal-content, #caption { 
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+.encabezado{
+    width: 100%;
+    top: 0;
+    left: 0px;
+   position: fixed;
+   height: 0px;
+}
+.card1{
+    border-radius: 4px;
+}
+.card2{
+   
+    background-color:white;
+    border-radius: 4px;
+
+}
+
